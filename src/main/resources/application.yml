@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ji-mservices/config-repo.git
+#          uri: file:///C://Users//USER//workspace-microservicios//git-localconfig-repo
+#          uri: file:///${user.workspace_ms}//git-localconfig-repo
+
+server:
+  port: 8888
