@@ -6,6 +6,8 @@ spring:
       server:
         git:
           uri: https://github.com/ji-mservices/config-repo.git
+          default-label: main
+          clone-on-start: true
 #          uri: file:///C://Users//USER//workspace-microservicios//git-localconfig-repo
 #          uri: file:///${user.workspace_ms}//git-localconfig-repo
 
